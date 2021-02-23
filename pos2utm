@@ -1,4 +1,9 @@
 #!/bin/tcsh
+#
+# versione 	1.0  
+# data 		31/01/2019
+# autore	MSeverin - DZuliani
+#
 #echo 4323114.840 1018204.344 4562403.236 | cs2cs -r -f "%.3f"\
 set UTMZONE = 33
 setenv LC_NUMERIC  C
