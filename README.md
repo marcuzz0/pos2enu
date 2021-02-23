@@ -12,30 +12,24 @@ NB: per il sistema operativo Windows 10 è necessario abilitare la bash di Windo
 $ sudo apt-get update && sudo apt-get upgrade
 $ mkdir bin
 $ cd $HOME/bin
-$ git clone https://github.com/Marcuzzo77/gpsql.git
+$ git clone https://github.com/marcuzz0/pos2enu.git
 $ sudo apt-get install -y dialog
 $ sudo apt-get update
 $ sudo apt-get install l dialog
-$ wget -O pgfutter https://github.com/lukasmartinelli/pgfutter/releases/download/v1.2/pgfutter_linux_amd64
-$ chmod +x pgfutter
-$ echo "export PATH="$PATH:$HOME/bin/gpsql"" >> .bashrc
-$ cd gpsql
-$ gpsql.sh
-$ ./gpsql
+$ echo "export PATH="$PATH:$HOME/bin/pos2enu"" >> .bashrc
+$ cd pos2enu
+$ ./pos2utm.sh
 ```
 
 ## Installazione per Mac OSX
 ```
 $ mkdir bin
 $ cd $HOME/bin
-$ git clone https://github.com/Marcuzzo77/gpsql.git
+$ git clone https://github.com/marcuzz0/pos2enu.git
 $ brew install dialog
-$ wget -O pgfutter https://github.com/lukasmartinelli/pgfutter/releases/download/v1.2/pgfutter_darwin_amd64
-$ chmod +x pgfutter
-$ echo 'export PATH="$PATH:$HOME/bin/gpsql"' >> .bashrc
-$ cd gpsql
-$ gpsql.sh
-$ gpsql
+$ echo 'export PATH="$PATH:$HOME/bin/pos2enu"' >> .bashrc
+$ cd pos2enu
+$ pos2utm.sh
 ````
 
 ## Installazione per Windows 10
@@ -43,11 +37,9 @@ $ gpsql
 $ sudo apt-get update && sudo apt-get upgrade
 $ mkdir bin
 $ cd $HOME/bin
-$ git clone https://github.com/Marcuzzo77/gpsql.git
+$ git clone https://github.com/marcuzz0/pos2enu.git
 $ sudo apt-get install -y dialog
-$ wget -O pgfutter https://github.com/lukasmartinelli/pgfutter/releases/download/v1.2/pgfutter_linux_amd64
-$ chmod +x pgfutter
-$ echo 'export PATH="$PATH:$HOME/bin/gpsql"' >> .bashrc
-$ cd gpsql
-$ gpsql.sh
+$ echo 'export PATH="$PATH:$HOME/bin/pos2enu"' >> .bashrc
+$ cd pos2enu
+$ pos2utm.sh
 ```
