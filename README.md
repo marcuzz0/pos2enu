@@ -8,7 +8,7 @@ Attualmente è possibile convertire il file *.pos avente per risultato finale la
 
 NB: per il sistema operativo Windows 10 è necessario abilitare la bash di Windows, ad esempio (https://www.lffl.org/2016/08/guida-abilitare-la-bash-windows-10.html)
 
-## Installazione per Debian or Ubuntu Linux
+## Installazione per Debian, Ubuntu Linux, Windows 10
 ```
 $ sudo apt-get update && sudo apt-get upgrade
 $ sudo apt-get install proj-bin
@@ -26,16 +26,6 @@ $ cd $HOME/bin
 $ git clone https://github.com/marcuzz0/pos2enu.git
 $ echo 'export PATH="$PATH:$HOME/bin/pos2enu"' >> .bashrc
 ````
-
-## Installazione per Windows 10
-```
-$ sudo apt-get update && sudo apt-get upgrade
-$ sudo apt-get install proj-bin
-$ mkdir bin
-$ cd $HOME/bin
-$ git clone https://github.com/marcuzz0/pos2enu.git
-$ echo "export PATH="$PATH:$HOME/bin/pos2enu"" >> .bashrc
-```
 
 ## Come si utilizza
 ```
