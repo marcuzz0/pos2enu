@@ -34,7 +34,6 @@ $ sudo apt-get install proj-bin
 $ mkdir bin
 $ cd $HOME/bin
 $ git clone https://github.com/marcuzz0/pos2enu.git
-
 $ echo "export PATH="$PATH:$HOME/bin/pos2enu"" >> .bashrc
 ```
 
