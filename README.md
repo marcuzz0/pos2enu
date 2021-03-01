@@ -15,9 +15,6 @@ $ sudo apt-get install proj-bin
 $ mkdir bin
 $ cd $HOME/bin
 $ git clone https://github.com/marcuzz0/pos2enu.git
-$ sudo apt-get install -y dialog
-$ sudo apt-get update
-$ sudo apt-get install l dialog
 $ echo "export PATH="$PATH:$HOME/bin/pos2enu"" >> .bashrc
 ```
 
@@ -27,7 +24,6 @@ $ brew install proj
 $ mkdir bin
 $ cd $HOME/bin
 $ git clone https://github.com/marcuzz0/pos2enu.git
-$ brew install dialog
 $ echo 'export PATH="$PATH:$HOME/bin/pos2enu"' >> .bashrc
 ````
 
@@ -38,9 +34,7 @@ $ sudo apt-get install proj-bin
 $ mkdir bin
 $ cd $HOME/bin
 $ git clone https://github.com/marcuzz0/pos2enu.git
-$ sudo apt-get install -y dialog
-$ sudo apt-get update
-$ sudo apt-get install l dialog
+
 $ echo "export PATH="$PATH:$HOME/bin/pos2enu"" >> .bashrc
 ```
 
