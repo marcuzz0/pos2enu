@@ -19,6 +19,11 @@ $ sudo apt-get install -y dialog
 $ sudo apt-get update
 $ sudo apt-get install l dialog
 $ echo "export PATH="$PATH:$HOME/bin/pos2enu"" >> .bashrc
+<<<<<<< HEAD
+=======
+$ cd pos2enu
+$ ./pos2utm.sh
+>>>>>>> bc0c17dcd1e103009a534ddebc6d3bdee2515f21
 ```
 
 ## Installazione per Mac OSX
@@ -29,6 +34,11 @@ $ cd $HOME/bin
 $ git clone https://github.com/marcuzz0/pos2enu.git
 $ brew install dialog
 $ echo 'export PATH="$PATH:$HOME/bin/pos2enu"' >> .bashrc
+<<<<<<< HEAD
+=======
+$ cd pos2enu
+$ pos2utm.sh
+>>>>>>> bc0c17dcd1e103009a534ddebc6d3bdee2515f21
 ````
 
 ## Installazione per Windows 10
@@ -39,6 +49,7 @@ $ mkdir bin
 $ cd $HOME/bin
 $ git clone https://github.com/marcuzz0/pos2enu.git
 $ sudo apt-get install -y dialog
+<<<<<<< HEAD
 $ sudo apt-get update
 $ sudo apt-get install l dialog
 $ echo "export PATH="$PATH:$HOME/bin/pos2enu"" >> .bashrc
@@ -47,4 +58,9 @@ $ echo "export PATH="$PATH:$HOME/bin/pos2enu"" >> .bashrc
 ## Come si utilizza
 ```
 $ pos2enu /percorso_del_file_da_convertire
+=======
+$ echo 'export PATH="$PATH:$HOME/bin/pos2enu"' >> .bashrc
+$ cd pos2enu
+$ pos2utm.sh
+>>>>>>> bc0c17dcd1e103009a534ddebc6d3bdee2515f21
 ```
